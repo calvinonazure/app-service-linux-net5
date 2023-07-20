@@ -1,0 +1,8 @@
+name: app-service-linux-net5
+metadata:
+  template: app-service-linux-net5@0.1
+services:
+  web:
+    project: ./src/Net5HelloWorld
+    language: dotnet
+    host: appservice
